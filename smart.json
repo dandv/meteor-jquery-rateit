@@ -1,0 +1,11 @@
+{
+  "name": "jquery-rateit",
+  "description": "RateIt - a modern, mobile-friendly, jQuery (star) rating plugin. http://rateit.codeplex.com/",
+  "homepage": "https://github.com/dandv/meteor-jquery-rateit",
+  "author": "Dan Dascalescu <dNOSPAMdascalescu@gmail.com> (http://dandascalescu.com)",
+  "version": "1.0.9",
+  "git": "https://github.com/dandv/meteor-jquery-rateit.git",
+  "packages": {
+    "jquery": {}
+  }
+}
