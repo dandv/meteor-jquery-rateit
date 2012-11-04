@@ -5,7 +5,7 @@ Package.describe({
 Package.on_use(function (api) {
   api.use('jquery');
   api.add_files([
-    'lib/jquery.rateit.min.js',
+    'lib/jquery.rateit.js',
     'lib/rateit.css',
     'lib/star.gif',
     'lib/delete.gif'
