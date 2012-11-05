@@ -5,7 +5,5 @@
   "author": "Dan Dascalescu <dNOSPAMdascalescu@gmail.com> (http://dandascalescu.com)",
   "version": "1.0.9",
   "git": "https://github.com/dandv/meteor-jquery-rateit.git",
-  "packages": {
-    "jquery": {}
-  }
+  "packages": {}
 }

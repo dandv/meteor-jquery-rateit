@@ -5,11 +5,16 @@
 ## How to install 
 1. `npm install -g meteorite` (if not already installed)
 2. `mrt add jquery-rateit`
-3. For the simplest invocation, have `<div class="rateit"></div>` in a template.
+3. For the simplest invocation, have `<div class="rateit"></div>` in a template, and call `$('.rateit').rateit()` in its `.rendered()` event.
 
 ## Demo
 
-http://www.radioactivethinking.com/rateit/example/example.htm
+* [Official demo](http://www.radioactivethinking.com/rateit/example/example.htm)
+* [meteor demo](http://jquery-rateit.meteor.com)
+
+## Documentation
+
+http://rateit.codeplex.com/documentation
 
 ## Comparison with other rating plugins
 
@@ -55,4 +60,9 @@ Each of these tags gets a hover event, and a click event. And on these hover/cli
 
 > RateIt uses basically three divs.
 
-Oh, and the last RateIt update? **The day before.**
+Oh, and the last RateIt update? **The day before I packaged this.**
+
+## TODO
+
+* Handlebars helper (like [`accounts-ui-unstyled`](https://github.com/meteor/meteor/tree/master/packages/accounts-ui-unstyled)) passing through options such as `min`, `max`, `step`, `readonly` etc.
+* Mixin to automatically associate a rating with a document

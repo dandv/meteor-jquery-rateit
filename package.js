@@ -5,10 +5,10 @@ Package.describe({
 Package.on_use(function (api) {
   api.use('jquery', 'client');
   api.add_files([
-    path.join('lib', 'jquery.rateit.js'),
-    path.join('lib', 'rateit.css'),
-    path.join('lib', 'star.gif'),
-    path.join('lib', 'delete.gif')
+    'lib/jquery.rateit.js',
+    'lib/rateit.css',
+    'lib/star.gif',
+    'lib/delete.gif'
   ], 'client'
   );
 });
