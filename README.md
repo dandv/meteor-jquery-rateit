@@ -10,7 +10,7 @@
 ## Demo
 
 * [Official demo](http://www.radioactivethinking.com/rateit/example/example.htm)
-* [meteor demo](http://jquery-rateit.meteor.com)
+* [meteor demo](http://jquery-rateit.meteor.com) ([source code](/dandv/meteor-jquery-rating-demo))
 
 ## Documentation
 
