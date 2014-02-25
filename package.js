@@ -4,11 +4,12 @@ Package.describe({
 
 Package.on_use(function (api) {
   api.use('jquery', 'client');
+  api.imply('jquery', 'client');
   api.add_files([
-    'lib/jquery.rateit.js',
-    'lib/rateit.css',
-    'lib/star.gif',
-    'lib/delete.gif'
+    'jquery.rateit.js',
+    'rateit.css',
+    'star.gif',
+    'delete.gif'
   ], 'client'
   );
 });

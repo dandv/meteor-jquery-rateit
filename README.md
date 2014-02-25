@@ -1,6 +1,6 @@
 # RateIt - a jQuery (star) rating plugin
 
-[RateIt](http://rateit.codeplex.com/), an advanced, modern, clean jQuery plugin for mobile-friendly star rating controls.
+[RateIt](http://rateit.codeplex.com/) v1.0.20, an advanced, modern, clean jQuery plugin for mobile-friendly star rating controls.
 
 ## How to install 
 1. `npm install -g meteorite` (if not already installed)
@@ -15,6 +15,10 @@
 ## Documentation
 
 http://rateit.codeplex.com/documentation
+
+## Styling
+
+Check out [the examples](http://rateit.codeplex.com) for more styles than stars (antenna bars etc.)
 
 ## Comparison with other rating plugins
 
