@@ -1,8 +1,8 @@
 Package.describe({
   name: 'dandv:jquery-rateit',
   summary: 'RateIt - a modern, mobile-friendly, jQuery (star) rating plugin',
-  version: '1.0.22_1',
-  git: 'https://github.com/dandv/jquery-rateit.git'
+  version: '1.0.22_2',
+  git: 'https://github.com/dandv/meteor-jquery-rateit.git'
 });
 
 Package.onUse(function (api) {
