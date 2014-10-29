@@ -1,11 +1,11 @@
 # RateIt - a jQuery (star) rating plugin
 
-[RateIt](http://rateit.codeplex.com/) v1.0.20, an advanced, modern, clean jQuery plugin for mobile-friendly star rating controls.
+[RateIt](http://rateit.codeplex.com/) v1.0.22, an advanced, modern, clean jQuery plugin for mobile-friendly star rating controls.
 
-## How to install 
-1. `npm install -g meteorite` (if not already installed)
-2. `mrt add jquery-rateit`
-3. For the simplest invocation, have `<div class="rateit"></div>` in a template, and call `$('.rateit').rateit()` in its `.rendered()` event.
+## How to install
+
+1. `meteor add dandv:jquery-rateit`
+2. For the simplest invocation, have `<div class="rateit"></div>` in a template, and call `$('.rateit').rateit()` in its `.rendered()` event.
 
 ## Demo
 
@@ -22,7 +22,7 @@ Check out [the examples](http://rateit.codeplex.com) for more styles than stars 
 
 ## Comparison with other rating plugins
 
-I was looking for a star rating plugin to package for Meteor, and I've evaluated all the 11 jQuery rating plugins listed [here](http://www.enfew.com/5-best-jquery-star-rating-plugins-tutorials/). The winner was, by far, [RateIt](http://rateit.codeplex.com/).
+In Nov. 2012, while [looking for a star rating plugin](http://stackoverflow.com/questions/4542883/jquery-star-rating/13176213#13176213) to package for Meteor, I evaluated all the 11 jQuery rating plugins listed [here](http://www.enfew.com/5-best-jquery-star-rating-plugins-tutorials/). The winner was, by far, [RateIt](http://rateit.codeplex.com/).
 
 > Fast, Progressive enhancement, touch support, customizable (just swap out the images, or change some CSS), Unobtrusive JavaScript (using HTML5 data-* attributes), RTL support, supports as many stars as you'd like, and also any step size.
 
@@ -70,3 +70,15 @@ Oh, and the last RateIt update? **The day before I packaged this.**
 
 * Handlebars helper (like [`accounts-ui-unstyled`](https://github.com/meteor/meteor/tree/master/packages/accounts-ui-unstyled)) passing through options such as `min`, `max`, `step`, `readonly` etc.
 * Mixin to automatically associate a rating with a document
+
+## Author, license and copyright
+
+The MIT License (MIT)
+
+Copyright (c) 2013 Gideon Junge
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
