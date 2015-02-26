@@ -2,10 +2,31 @@
 
 [RateIt](http://rateit.codeplex.com/) v1.0.22, an advanced, modern, clean jQuery plugin for mobile-friendly star rating controls.
 
-## How to install
+## Usage
 
 1. `meteor add dandv:jquery-rateit`
-2. For the simplest invocation, have `<div class="rateit"></div>` in a template, and call `$('.rateit').rateit()` in its `.rendered()` event.
+2. For the simplest invocation, have `<div class="rateit"></div>` in a template, and call `$('.rateit').rateit()` in its `.rendered()` event. To make sure the rating control is always instantiated, it's best to limit the template to that div alone:
+
+```html
+<template name="hello">
+  {{#if currentUser}}
+    Rating: {{> rating}}
+  {{/if}}  
+</template>
+
+<template name="rating">
+  <div class="rateit"></div>
+</template>
+```
+
+And have the initialization done in the `rendered` event of the `rating` template:
+
+```js
+// .rateit elements need to be progressively enhanced after they're created
+Template.rating.rendered = function () {
+  this.$('.rateit').rateit();
+}
+```
 
 ## Demo
 
